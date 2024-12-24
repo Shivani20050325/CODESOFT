@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 0;
+            font-style: italic;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .about img {
+            max-width: 150px;
+            border-radius: 50%;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .projects .project {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+
+        .resume a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume a:hover {
+            background: #0056b3;
+        }
+
+        .contact {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shivani Aeluka</h1>
+        <p>I am shivani from Kamareddy District<br>now Iam persuing B.tech 3rd year CSE at Jyothishmathi institute of technology and science in karimnagar<br>
+        my mother is house maker and my father is driver I have 1 sibling He is studying inter 1st year at kamareddy<br>
+    my hobbies are Cooking and Drawing and my goal is do a software job with high package</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="https://res.cloudinary.com/duwgvnc4t/image/upload/v1735025274/IMG-20241205-WA0006_ev239t.jpg" alt="Your Photo">
+        <p>Hello! I'm a web developer with expertise in HTML, CSS, and JavaScript. I love creating beautiful and functional websites.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>React.js</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <h2>Merchant wallet with Mobile payment</h2>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEBUQEBAQEBUSEBUXEBUVEhYVEBUVGBcYFhUVFRUYHCggGBolGxUVITEhJTUrLi4vFx8zODMsNygtLisBCgoKDg0OGxAQGi8mHyUtLi0tLS0rKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tK//AABEIAOkA2AMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwUCBAYBB//EAEsQAAIBAwEEAwoHDQgDAQAAAAECAAMEERIFEyExBiJRFEFSYXF0gZGT0RYyNDVUsrMVIyRCU1VykqGjscPSBzNiZHPh8PFEgoND/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEEAgMFBgf/xAA0EQEAAQMBBgMHAwMFAAAAAAAAAQIDEQQFEhMhMVEVM0EUIjJSYXGRBiOBNEKhJFNiwfD/2gAMAwEAAhEDEQA/AOpnpXzsgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICQEHMgwSQgICAgICAgICAgICAgICAgIPVBe3dOjTNWq4RFHWY8v9z4pEzhstWqrtW7RCtpbcquNVLZ20KqH4rijgHxgE8ppm/RHq6lOxr0xmZhl91bn81bR9mvvke00d2Xgtz5oPurc/mvaPs198n2ijueC3Pmh6u1bjv7L2j6KS++YzqKPSUxsav1lMm2ag57I2mfLTT+qYTfz/c3U7Hx6pRt6p+Zto+yT+qYcT/k2RsvHZ6nSmgrql1aXNlrOEavRApE94F1yFPlkxVM9JY17PmmM4dAbVD+KPR/tJi5UpTYonlhDUsB+KSPLxE2Ren1aatJHo1Kts68x6RxE203IlVrsV0IpsaSAgICAgICAgICAgICAgIIU9xRWttSyt6gDUxvqzIeKs1NCU1DvgHB9Eq6qcUO/sWinnU+kbxu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" alt="Project 1">
+            <p>A merchant wallet, also known as a digital or e-wallet, is a secure virtual container for storing payment methods that can be used for mobile and online payments. Merchants can integrate merchant wallets into their point-of-sale (POS) systems or e-commerce sites to allow customers to pay without having to present a card or enter payment details. 
+                Merchant wallets can offer a variety of features, including:
+                Payment methods: Merchants can accept a variety of payment methods, such as credit cards, debit cards, and digital currencies. 
+                Value-added services: Merchant wallets can offer additional services, such as loyalty programs, product recommendations, and geolocation. 
+                Seamless checkout: Merchant wallets can provide a seamless checkout experience for customers. </p>
+        </div>
+    
+    </section>
+
+    <section class="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download My Resume</a>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: shivaniaeluka17@gmail.com</p>
+        <p>phone: +91 9951994594</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shivani. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
